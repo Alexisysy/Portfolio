@@ -1,0 +1,190 @@
+{
+    "project1": {
+        "title": "Lost Light",
+        "link": "https://drive.google.com/file/d/1BavVL71yLnJojrYgSuZeTbmOUn8g8J9Q/view",
+        "background": "./images/projects/lost_light/ll_logo.png",
+        "technologies": ["Unreal Engine 5", " Blueprints"],
+        "teamSize": 8,
+        "role": ["Game Designer"," Level Designer", " Dévellopeur", " UI Integrator"],
+        "date": ["2023 - 2024", "1 an"],
+        "description":{
+            "Synopsis": "Dans ce jeu d'infiltration en 3D FPV, vous incarnez Imany, une jeune journaliste vivant à Down City une ville construite sur une foreuse géante qui s'enfonce de plus en plus sous terre depuis les années 2200 dû aux différentes crise climatiques et aux guerres. Vous êtes en l'an 2709 quand votre sœur disparait mystérieusement en laissant derrière elle une technologie qui vous propulsera dans une guerre entre le régime autoritaire gérant la ville et la résistance. Saurez-vous trouver votre place et survivre ?",
+            "Game designer": {
+                "description": "Sur ce projet, j'ai élaboré les différentes mécaniques du jeu en les testant le plus possibles pour au mieux les équilibrer. J'ai aussi rédiger le GDD du jeu faisant une soixantaine de page tout en mettant un point d'honneur à le rendre le plus visuel et concis pour que n'importe qui dans l'équipe puisse le lire. C'est pour cette raison que toutes les mécaniques du jeu ont été schématisé et leurs metrics précisées.",
+                "image":"../images/projects/lost_light/img1.png",
+                "legend":"Exemple de schéma réalisé"
+            },
+            "Level designer": {
+                "description": "En tant que Level Designer sur ce projet, j'ai fais les premier jets des différents niveaux qu'on voit dans le jeu. Pour cela, je suis passé par des schémas papier avant d'attaquer le blocking. Pour m'aider à la réalisation de mes niveaux, je me suis baladé dans Bordeaux de nuit pour analyser les différents environnements. Ainsi j'ai pu m'en inspirer pour voir comment chaque élément de la ville nous guident plus ou moins. (Cliquer sur ce lien pour lire l'analyse)",
+                "image":["../images/projects/lost_light/img2.jpg","../images/projects/lost_light/img3.png"],
+                "legend":["Première itération du LD sous forme de schéma","Vue top du résultat final"]
+            },
+            "Dévellopeur": {
+                "description": "Sur le projet, j'ai codé ~90% du jeu. J'ai fais le controller, toutes les mécaniques, l'interface et tout le système d'inventaire/journal. Pour que toute l'équipe puisse facilement intégrer les assets, j'ai fais en sorte que ces derniers aient le moins de paramètres possible et j'ai rédigé un document qui explique en détails comment chaque asset fonctionne.",
+                "image":"../images/projects/lost_light/img4.png",
+                "legend":"Exemple d'une page du document explicatif"
+            },
+            "UI integrator": {
+                "description": "En tant qu'UI Integrator, j'ai dû intégrer et rendre l'UI fonctionnelle. Pour cela je me suis basé sur les documents que les artistes m'ont donné tout au long de la production. Je me suis aussi occupé de faire les différentes animations et transitions qu'on retrouve dans les interfaces.",
+                "video":"../video/lost_light/video1.mp4",
+                "legend":"Exemple d'UI et de transitions que j'ai dû intégrer"
+            }
+        }
+    },
+    "project2": {
+        "title": "Tale of Memories",
+        "link": "https://alexis-baron.itch.io/a-tales-of-memories",
+        "background": "./images/projects/tales_of_memories/tom_logo.jpg",
+        "technologies": ["Unreal Engine 5", " Blueprints"],
+        "teamSize": 7,
+        "role": ["Game Designer"," Level Designer", " Produceur", "I ntégrateur", " Narrative Designer"],
+        "date": ["2023", "3 mois"],
+        "description":{
+            "Synopsis": "Dans ce walking sim, vous incarnez Raphael, un ancien soldat espagnol républicain qui revient chez lui après la guerre. Cependant, il se rend compte bien vite que quelques chose ne tourne pas rond et qu'il est devenu fou à cause des crimes qu'il a commis. C'est à vous de réunir tous les fragments de l'histoire de Raphael pour reconstituer cette fresque terrible d'une guerre fratricide.",
+            "Game Designer":{
+                "description":  "Ce jeu étant un walking sim, en tant que game designer j'ai élaboré le controller, ses différentes interactions possibles et la fonctionnalité de manipuler et d'observer les objets dans l'environnement. J'ai aussi rédigé un MGDD regroupant toutes les metrics dont avait besoin les programmeurs.",
+                "video":"../video/tales_of_memories/video1.mp4",
+                "legend":"Mécanique de manipulation des objets"
+            },
+            "Level Designer": {
+                "description": "Le level design de ce jeu est simple : c'est un couloir qui se répète en boucle avec des variations entre chaque boucle. Mon rôle a été de faire en sorte que chaque variante du couloir raconte sa propre histoire par son architecture et/ou par le placement des objets et ainsi créer une ambiance bien distincte pour chaque itération. Pour arriver à ce résultat, je suis passé par les étapes de schéma, de blocking et ensuite d'habillage aux côtés des Level Artists. Cette dernière étape a été très importantes pour régler les derniers détails et s'assurer que l'ambiance de chaque couloir est respecté.",
+                "image":["../images/projects/tales_of_memories/img1.png","../images/projects/tales_of_memories/img2.png"],
+                "legend":["Schémas LD finaux","Un schéma plus en détails"]
+            },
+            "Produceur": "En tant que produceur, j'ai utilisé plusieurs outils comme Trello et Excel pour organiser les tâches et la charge horaire de chaque membre de l'équipe. Comme nous travaillions sur un rythme de sprint hebdomadaire, à chaque début de semaine, je m'entretenais avec chaque membre de l'équipe pour m'entretenir de l'avancer des tâches et voir s'il y avait besoin d'une réorganisation du planning.",
+            "Intégrateur":{
+                "description": "En tant que produceur, j'ai utilisé plusieurs outils comme Trello et Excel pour organiser les tâches et la charge horaire de chaque membre de l'équipe. Comme nous travaillions sur un rythme de sprint hebdomadaire, à chaque début de semaine, je m'entretenais avec chaque membre de l'équipe pour m'entretenir de l'avancer des tâches et voir s'il y avait besoin d'une réorganisation du planning.",
+                "image":"../images/projects/tales_of_memories/img3.jpg",
+                "legend":"Résultat finale après intégration + passage LA"
+            },
+            "Narrative Designer":{
+                "description": "Sur ce projet, j'ai écrit la majorité des documents qu'on retrouve dans le jeu. Je me suis aussi assuré que le placement et le contenu de chaque bout d'histoire ait un sens dans le design global du jeu. Pour cela, j'ai écrit une trame narrative globale que j'ai ensuite divisé en plusieurs parties qui me servaient à écrire chaque document. De cette manière, le jeu devient une sorte de travail d'historien où le joueur doit reconstituer cette trame pour comprendre l'entièreté du jeu.",
+                "image":"../images/projects/tales_of_memories/img4.jpg",
+                "legend":"Brouillon pour écrire la trame globale. J'utilise beaucoup le format papier pour poser mes premières idées"
+            }
+        }
+    },
+    "project3": {
+        "title": "Evénement Quest Design Final Fantasy 14",
+        "link": "docs.google.com/spreadsheets/d/1KnwCEkysbpKvEVqyppGCvVM6ZqpumALU/edit?rtpof=true&sd=true&gid=672030777#gid=672030777",
+        "background": "./images/projects/ff14/ff14_logo.png",
+        "technologies": ["Excel", " Discord"," FFXIV Online"],
+        "teamSize": 1,
+        "role": ["Game Designer"," Quest Designer", " Scénariste", " Maître du jeu"],
+        "date": ["2020 - 2024", "4 mois","4 éditions"],
+        "description":{
+            "Synopsis": "Etant extrêmement fan de FFXIV, j'ai voulu proposer un nouveau type d'événement au membre de ma guilde : un jeu de piste à la façon d'un escape game. C'est à un dire que les joueurs doivent résoudre une série d'énigme pour retrouver un personnage, un artéfact ou autre. Tout cela est englobé dans une scénario s'inscrivant dans l'univers du jeu. Ne pouvant pas rajoutez ces 'quêtes' directement dans le jeu, j'ai dû trouver des moyens alternatifs pour organiser l'événement.",
+            "Game Designer": "Pour cet événements j'ai dû créer beaucoup d'énigmes divers et variés pour que tous type de joueur puisse s'amuser. C'est pour cela que certaines demande un esprit logique, d'autre mathématiques ou d'autres encore demande une connaissance plus ou moins approfondis du jeu. C'est pour cela que j'ai décidé très vite que cet événement se ferait en groupe de 2 ou 3 pour que les joueurs puissent compenser entre eux leurs lacunes dans leur domaine respectif. En tant que Game Designer c'est aussi mon rôle de m'assurer de l'équilibrage de la difficulté de chaque énigme et du temps globale que prendra l'événement.",
+            "Quest Designer":{
+                "description": "Mon travail de Quest Designer sur cet événement consiste à m'assurer du bon rythme des séries de quêtes. C'est à dire que je fais en sorte que le contenu de chaque quête soit variés que ce soit dans la difficulté, le placement des endroits à découvrir ou dans le type d'énigme. Même si chaque événement a une trame narrative globale, je m'assure de la diviser en différentes petites séries de quêtes qui seront toutes intéressantes à suivre pour que les joueurs aient envie d'aller jusqu'au bout.",
+                "image":"../images/projects/ff14/img1.png",
+                "legend":"Je concentre chaque série de quête sur une seule zone, ce qui me permet de plus facilement gérer le rythme et l'histoire des quêtes"
+            },
+            "Scénariste":{
+                "description": "Je fais en sorte que chaque événement s'inscrit dans une histoire inédite écrite par mes soins mais qui s'inscrit quand même dans l'univers du jeu. C'est pour cela que je passe du temps à rechercher chaque bout de lore possible, chaque PNJ qui se trouve sur la carte et qui pourrait m'être utile. De cette manière, je peux ensuite conter une histoire qui est possible dans cet univers mais qui ne vient pas en contradiction avec ce qui existe déjà dans le jeu. Cela me permet aussi de créer des énigmes qui sont plus en lien avec l'histoire du jeu.",
+                "image":"../images/projects/ff14/img2.png",
+                "legend":"Un lieu que j'utilise dans l'une de mes quêtes. J'ai cherché tous les bouts de lore qui entourent l'endroit les PNJ qui s'y trouvent pour pouvoir y raccrocher mon histoire."
+            },
+            "Maître du jeu":{
+                "description": "Comme je ne peux pas rajouter les quêtes que je crée directement dans le jeu, je dois organiser l'événement comme une sorte de partie de jeu de rôle. C'est à dire que je prévois à l'avance un document Excel avec toutes les étapes pré-écrites que je peux ensuite copier-coller. Comme chaque énigme révèle soit un emplacement sur la carte, le nom d'un PNJ ou encore une phrase ou un mot, les joueurs doivent m'envoyer leur réponse par écrit sur Discord pour que je puisse ensuite m'assurer qu'ils aient réussi l'énigme. Ainsi, je copie-colle la suite de l'événement pour qu'il puisse avancer. Je vais aussi souvent les voir pour m'assurer qu'ils ne soient pas bloquer et si c'est le cas, je vais leur donner un indice pour qu'ils puissent continuer. Le but étant que tout le monde passe un bon moment et que personne ne passe des heures totalement bloqué sur une énigme.",
+                "image":"../images/projects/ff14/img3.png",
+                "legend":"Exemple d'une page du document que je prévois en avance pour le bon déroulé de l'événement. Les cases blanches sont les énigmes et l'histoire alors que les cases grises sont les réponses que j'attends. Tandis que les cases colorés sont des bouts d'histoire qui ne sont révélés que si les joueurs remplissent les conditions."
+            }
+        }
+    },
+    "project4": {
+        "title": "Chavengers",
+        "link": "https://kevin-reilhac.itch.io/chavengers",
+        "background": "./images/projects/chavengers/chavengers_logo.png",
+        "technologies": ["Unity", " C#"],
+        "teamSize": 6,
+        "role": ["Game Designer"," Level Designer", " Level Artist"],
+        "date": ["2023", "48 heures"],
+        "description":{
+            "Synopsis": "Vous incarnez dans ce survivor game le chef des chat voulant conquérir le monde ! Réunissez votre équipe et affronter les corgis et les soldats pour dominer la planète. Votre premier objectif ? la Maison Blanche !",
+            "Game Designer":{
+                "description": "Mon rôle de Game Designer sur ce projet a été de réfléchir aux différents pouvoirs de chaque compagnon chat. J'ai aussi un peu travaillé sur l'équilibrage de dégâts infligés et reçu et à la porté de chaque pouvoir.",
+                "image":"../images/projects/chavengers/img1.png",
+                "legend":"Le chat orange est l'un des compagnons qu'on peut recruter dans le jeu. Il est capable de cracher des flammes dans la direction des ennemis."
+            },
+            "Level Designer": "Pour ce jeu, j'ai désigné un niveau qui permet au joueur d'être toujours en mouvement. Ainsi, chaque lieu a plusieurs entrée et sortie pour éviter que le joueur se retrouve bloqué. J'ai joué aussi sur les formes de la carte permettant des stratégies comme emmener les ennemis dans une zone plus restreinte pour augmenter les dégâts de zone ou tourner autour de plusieurs obstacles pour que les ennemis mettent plus de temps à toucher le joueur. Pour réaliser ce niveau, je suis passé de l'étape schéma à blocking à l'intégration des assets.",
+            "Level Artist":{
+                "description": "Après avoir désigné le niveau, je l'ai habillé avec les assets graphique que les artistes ont créé. J'ai donc dû rendre la carte belle tout en respectant mon design de base. Comme se type de jeu devient de plus en plus nerveux au file que la partie avance, j'ai dû aussi faire attention à la clarté du niveau pour que le joueur ne rentre pas dans un obstacle par inadvertance ou qu'il se perde.",
+                "image":"../images/projects/chavengers/img2.png",
+                "legend":"Une partie du niveau sous sa forme finale"
+            }
+        }
+    },
+    "project5": {
+        "title": "Aweakening the Devil",
+        "link": "https://alexis-baron.itch.io/aweakening-the-devil",
+        "background": "./images/projects/aweakening_the_devil/ate_logo.png",
+        "technologies": ["Unity", " C#"],
+        "teamSize": 5,
+        "role": ["Game Designer"," Dévellopeur", " Intégrateur"],
+        "date": ["2022", "2 semaines"],
+        "description":{
+            "Synopsis": "Alors que vous vivez votre vie tranquille de démon, un groupe de prêtre vient vous exorciser. Dans ce Isaac-like, repoussez à chaque round une vague de prêtre avec votre arsenal d'armes. Cependant, attention ! A chaque vague, vos ennemis vous affaiblissent avec leurs prières, diminuant les dégâts de vos armes petit à petit. Saurez-vous faire régner le mal ou alors le bien triomphera ?",
+            "Game Designer":{
+                "description": "J'ai participé à la création de chaque arme car celles-ci ont chacune un paterne d'utilisation différentes. Je me suis aussi occupé de designer le paterne d'attaques des ennemis. Ma dernière tâche en tant que Game Designer a été l'équilibrage car le fun du jeu se reposait énormément là-dessus. Si on avait une arme trop forte, des ennemis trop puissant ou une diminution de stat trop rapide, le jeu devenait beaucoup moins amusant. C'est pour cela que nous avons fait beaucoup de playtest durant ces deux semaines pour avoir un jeu le plus équilibré possible.",
+                "image":"../images/projects/aweakening_the_devil/img1.png",
+                "legend":"A chaque fin de round, le joueur se fait exorciser et doit choisir une de ses armes à affaiblir. Le joueur gagne quand il survit à une vague d'ennemis alors que toutes ses armes sont affaiblis !"
+            },
+            "Dévellopeur":{
+                "description": "C'est le premier jeu que j'ai codé intégralement seul, en passant du controller, aux armes, aux ennemis et à la mécaniques d'affaiblissement. Cette expérience m'a appris à quel point il est important d'organiser son architecture de code bien en avance pour gagner énormément de temps sur la programmation en elle-même. J'ai aussi pris connaissance qu'il faut simplifier le plus possible l'utilisation des assets pour qu'ensuite les intégrateurs se prennent moins la tête derrière.",
+                "image":"../images/projects/aweakening_the_devil/img2.png",
+                "legend":"Il existe deux types d'ennemis : des prêtes attaquant à distance et des templiers attaquant au corps à corps."
+            },
+            "Intégrateur": "Sur ce jeu, j'ai dû intégrer tous les assets graphiques dans le jeu que ce soit directement dans le niveau ou dans des assets déjà codé mais qui n'avait pas de texture. J'ai aussi fait les animations dans le moteur de jeu à partir des frames que me donnais les artistes. C'est aussi à ce moment-là que j'ai appris à quel point il est important de bien prévoir à l'avance les formats de chaque image pour éviter des problèmes."
+        }
+    },
+    "project6": {
+        "title": "One Slice Left",
+        "link": "https://alexis-baron.itch.io/one-slice-left",
+        "background": "./images/projects/one_slice_left/osl_logo.png",
+        "technologies": ["Python", " RenPy"],
+        "teamSize": 8,
+        "role": ["Programmeur", " Intégrateur", " Scénariste", " Sound Designer"],
+        "date": ["2022", "2 semaines"],
+        "description":{
+            "Synopsis": "Alors que vous rentrez d'une dure journée de travail, vous voulez déguster une bonne part de pizza aux côtés de vos colocataire mais c'était sans prévoir que quelqu'un l'a déjà mangé ! Dans ce visual novel, interrogez vos colocataires et découvrez qui est le voleur ! Mais faites attention, quelques chose de plus sinistre est entrain de se préparer...",
+            "Programmeur": "N'ayant pas d'outil de versioning pour ce moteur de jeu, nous avons dû entre programmeur bien nous organiser avant de commencer à travailler. De cette manière, nous avons pu être le plus efficace possible. Pour ma part, je gérais surtout les différentes transitions de dialogues, de scène ou encore les effets de caméras. J'ai aussi codé les différentes routes possibles selon les choix faits.",
+            "Intégrateur":{
+                "description": "Sur ce jeu, j'ai dû intégrer les assets graphiques, les son et les musiques. Mon travail d'intégrateur était très lié à celui de programmeur parce qu'après avoir ajouté les assets dans le moteur, je devais bien les appeler dans le code pour qu'il s'affiche à l'écran. Je ne pouvais pas juste les placer dans le niveau ou dans une variable.",
+                "image":"../images/projects/one_slice_left/img1.png",
+                "legend":"Une des scènes du jeu où on peut apercevoir la majorité du cast du jeu et l'un des environnement. Aussi chaque personnage à une boite de dialogue différentes pour leur rajouter un peu plus d'identité."
+            },
+            "Scénariste":{
+                "description": "Mon travail en tant que scénariste a été de créer une histoire intéressante à suivre et de développer des personnages attachant. C'est pour cela que même s'il n'y a que le premier chapitre de fait, nous avons pensé à toute la trame du jeu pour savoir quels indices nous devions laisser aux joueurs. Après avoir défini cela, nous avons découpé le jeu en actes avec différentes routes qui donnent aux joueurs différentes informations mais qui se réunissent finalement pour donner une même conclusion. Quand toutes ses étapes sont finis, nous avons écrits tous les dialogues du jeu en faisant plusieurs passes dessus pour rendre les personnages les plus vivants possibles.",
+                "image":"../images/projects/one_slice_left/img2.png",
+                "legend":"A ce moment là, selon le choix que fait le joueur la suite des événements sera différentes mais la fin du jeu ne changera pas. Ces différentes routes permettent au joueur de reconstituer le puzzle qu'est l'histoire."
+            },
+            "Sound Designer": "Sur ce projet je n'ai crée aucun son original mais j'ai dû chercher les sons et musiques qui convenait le plus pour obtenir l'ambiance que nous cherchions. J'ai donc fais en sorte d'intégrer chaque son et musique et de les tester voir s'ils s'inséraient bien à ce moment là du jeu. J'ai fais ce processus pour chaque son dans le jeu."
+        }
+    },
+    "project7": {
+        "title": "Brutal Stars",
+        "link": "https://alexis-baron.itch.io/brutal-star",
+        "background": "./images/projects/brutal_stars/bs_logo.png",
+        "technologies": ["Unity", " C#"],
+        "teamSize": 7,
+        "role": ["Game Designer", " Level Designer", " Dévellopeur", " Intégrateur", " UX Designer"],
+        "date": ["2022", "3 mois"],
+        "description":{
+            "Synopsis": "Dans ce 2D plateformer shooter en 1V1, affrontez vos amis dans un combat à mort sous le feu des projecteurs ! Utilisez des DEM pour renforcer vos projectiles mais faites attention à ce qu'ils ne se retournent pas contre vous ! Qui deviendra la prochaine Brutal Star ?!",
+            "Game Designer":{
+                "description": "Sur ce projet, j'ai participer à la conception du controller pour que le jeu ait le felling nerveux qu'on voulait lui donner mais aussi que le prise en moins soit simple. De ce fait, il permet à au plus grand monde de pouvoir comprendre le jeu et y jouer rapidement. Ensuite, j'ai réfléchi à comment rendre le tir le plus amusant possible. C'est là que nous sommes arriver à la conclusion de rendre les projectiles rebondissant pour qu'ils puissent créer du chaos. Nous avons aussi mis en place les DEM, des portails influençant n'importe quel projectile passant à l'intérieur. De cette manière, ce jeu a beaucoup de rejouabilité et a un gameplay très nerveux qui demande aux joueurs d'être toujours à l'affut des balles, des DEM et de son adversaire. Après avoir établis toutes les mécaniques, j'ai écrit un MGDD comportant toutes les metrics servant aux programmeurs et aux artistes.",
+                "image":"../images/projects/brutal_stars/img1.png",
+                "legend":"Les joueurs peuvent choisir entre 4 personnages mais ils ne changent pas les déplacements ou les pouvoir à disposition des joueurs. De cette manière les joueurs sont à armes égales mais ils peuvent choisir un skin différent."
+            },
+            "Level Designer": "L'objectif du level design de ce jeu était de permettre de créer une arène qui permette au joueur d'utiliser les rebond de leur projectiles au maximum tout en évitant que les tirs soit totalement imprévisibles ou que les balles se coincent dans un coin. Pour ce faire, j'ai fait plusieurs itérations de schéma en traçant des lignes pour voir tous les rebonds possibles. Quand avec l'équipe nous avons décidé de garder celui que nous pensions être le meilleur, j'ai fait le blocking puis j'ai testé en jeu le feeling du niveau. J'ai par la suite fait beaucoup de modification pour arriver à la version actuelle qui n'avantage aucun des deux joueurs tout permettant un déplacement fluide et plusieurs stratégies de tir. J'ai aussi dû choisir le lieu d'apparition des joueurs et des DEM. J'ai choisi pour ces dernier de les mettre dans des lieux augmentant les chances de confrontation avec l'adversaire pour dynamiser la partie.",
+            "Dévellopeur": "En tant que programmeur, j'ai codé les controller, certains des DEM et tout ce qui est lié aux menus. Ce projet m'a appris comment utiliser les outils de versioning et comment organiser la production d'un jeu avec plusieurs autre programmeur. Je me suis aussi occupé de faire l'architecture de code pour toute l'équipe.",
+            "Intégrateur": "Sur ce projet, j'ai dû combiner les assets graphiques et le code, rajouter les assets sur le niveau et remplir les différentes variables pour que je le jeu fonctionne. J'ai aussi intégrer les animations dans le menu et dans l'environnement.",
+            "UX Designer":{
+                "description": "En tant qu'UX Designer, j'ai dû m'occuper de la bonne fluidité de navigation dans les menus. C'est pour cela que j'ai fait en sorte que toutes les informations importantes soit repérable rapidement. Avec l'UI Artiste nous avons aussi réfléchis à comment rendre l'UI intéressante avec différentes interactions et animations tout en faisant attention à ce que l'interface reste claire et compréhensible.",
+                "image":"../images/projects/brutal_stars/bs_logo.png",
+                "legend":"Quand le joueur navigue dans le menu principal, les réactions du présentateur vont changer selon le bouton."
+            }
+        }
+    }
+}

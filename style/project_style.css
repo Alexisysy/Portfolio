@@ -1,0 +1,238 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.global_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { text-shadow: 0 0 5px #ff6200; }
+
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+/* Header Style */
+
+.global_container > div header {
+    background-color: #333333dd;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2%;
+    margin: 1% 1% 10% 1%;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0.5%;
+    font-size: calc(3vw + 3vh);
+}
+
+h2 {
+    margin: 0.5% 0.5% 2.5% 0.5%;
+    font-size: calc(1.9vw + 1.9vh);
+}
+
+h1, h2:hover{
+    cursor: pointer;
+}
+
+.global_container > div header nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.global_container > div header nav ul{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
+
+.list_nav{
+    list-style-type: none;
+    margin: 0 1.5em 0 1.5em;
+    padding: 0;
+}
+
+.link_nav{
+    color: white;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.header_img {
+  background-image: url("../images/header/lost_light.jpg");
+  background-color: #c0bdbd;
+  height: 35vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Main Style */
+.global_container > main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.global_container > main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 2%;
+    padding: 0;
+    width: 70%;
+}
+
+/* Intro Style */
+
+h3 {
+    font-size: calc(2.5vw + 2.5vh);
+    margin: 2% 0 0 0;
+    width: 100%;
+}
+
+.global_container > main section ul {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.list_intro{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 1.5% 0 1.5% 0;
+    padding: 0;
+    font-size: calc(1vw + 1vh);
+}
+
+.icon {
+    max-width: 5%;
+    height: auto;
+    margin: 0 1.5% 0 0;
+    
+}
+
+.link_intro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Section Style */
+
+h4{
+  font-size: calc(2vw + 2vh);
+    margin: 2% 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    font-size: calc(1vw + 1vh);
+    margin: 2%;
+    text-align: center;
+}
+
+.global_container > main section img:not(.icon):not(.contact_image) {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.image-legend {
+    font-style: italic;
+    font-size: calc(0.8vw + 0.8vh);
+    color: #666;
+    margin: 0.5% 0 1.5% 0;
+    text-align: center;
+}
+
+.global_container > main section video {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+
+}
+
+
+/* About Style */
+
+
+.delimiter {
+    width: 100%;
+}
+
+.link_cv {
+    text-decoration: none;
+    color: #333333;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.image_link {
+    text-align: center;
+    width: 100%;
+}
+
+/* Contact Style */
+.contact{
+    width: 100%;
+    text-decoration: none;
+    color: #333333;
+    font-size: calc(1.2vw + 1.2vh);
+    margin: 0.5% 0 2% 0;
+    text-align: center;
+}
+
+.contact_image{
+    max-width: 5%;
+    height: auto;
+    margin: 0;
+    
+}
+
+/* Footer Style */
+.global_container > footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 74, 30);
+    align-items: center;
+    width: 100%;
+}
+
+.footer_text {
+    color: white;
+    margin: 0;
+}
+
+h5 {
+    font-size: calc(1vw + 1vh);
+    margin: 3% 0 3% 0;
+}

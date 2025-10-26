@@ -1,0 +1,250 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.global_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Header Style */
+
+.global_container > div header {
+    background-color: #333333dd;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2%;
+    margin: 1% 1% 10% 1%;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0.5%;
+    font-size: calc(3vw + 3vh);
+}
+
+h2 {
+    margin: 0.5% 0.5% 2.5% 0.5%;
+    font-size: calc(1.9vw + 1.9vh);
+}
+
+.global_container > div header nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.global_container > div header nav ul{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
+
+.list_nav{
+    list-style-type: none;
+    margin: 0 1.5em 0 1.5em;
+    padding: 0;
+}
+
+.link_nav{
+    text-decoration: none;
+    color: white;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.header_img {
+  background-image: url("../images/header/lost_light.jpg");
+  background-color: #c0bdbd;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a:hover { text-shadow: 0 0 5px #ff6200; }
+
+/* Little presentation */
+.presentation {
+    background-color: #333333dd;
+    color: white;
+    text-align: center;
+    padding: 2% 5%;
+    margin: 2% 10%;
+    border-radius: 15px;
+    font-size: calc(1vw + 1vh);
+}
+
+/* Main Style */
+.global_container > main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+}
+
+h3 {
+    font-size: calc(2.5vw + 2.5vh);
+    margin: 3% 0 3% 0;
+}
+
+.body_imgA {
+  background-image: url("../images/body/tom.jpg");
+  background-color: #b5b0b0;
+  height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.body_imgB {
+  background-image: url("../images/body/chavenger.png");
+  background-color: #b5b0b0;
+  height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+/* Project Style */
+.global_container > main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    padding: 2% 0;
+    width: 100%;
+}
+
+.project_card {
+    background-image: url("../images/projects/lost_light/ll_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    aspect-ratio: 16/9;
+    margin: 1%;
+    padding: 0;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.project_card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.project_card_top {
+    background-color: transparent;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.5vw + 1.5vh);
+    font-weight: bold;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+
+.project_card:hover .project_card_top {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* About Style */
+.about {
+    width: 100%;
+    font-size: calc(1.2vw + 1.2vh);
+    margin: 2%;
+    text-align: center;
+}
+
+.delimiter {
+    width: 100%;
+}
+
+.cv {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 2%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.cv.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.link_cv {
+    text-decoration: none;
+    color: #333333;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.icon_pdf {
+    max-width: 5%;
+    height: auto;
+    margin: 2% 0 2% 0;
+    
+}
+
+.image_link {
+    text-align: center;
+    width: 100%;
+}
+
+/* Contact Style */
+.contact{
+    width: 100%;
+    text-decoration: none;
+    color: #333333;
+    font-size: calc(1.2vw + 1.2vh);
+    margin: 0.5% 0 2% 0;
+    text-align: center;
+}
+
+.contact_image{
+    max-width: 5%;
+    height: auto;
+    margin: 0;
+    
+}
+
+/* Footer Style */
+.global_container > footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 74, 30);
+    align-items: center;
+    width: 100%;
+}
+
+.footer_text {
+    text-decoration: none;
+    color: white;
+    font-size: calc(1vw + 1vh);
+    margin: 0;
+}
